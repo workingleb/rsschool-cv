@@ -17,7 +17,8 @@ I love an active and interesting life. Traveling is an integral part of my life.
 I have basic skills in *HTML*, *CSS* and *Git*.
 ## Code examples and experience
 ***
-'''const chai = require("chai");
+'''
+const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
 
