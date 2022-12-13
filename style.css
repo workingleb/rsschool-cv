@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
 html {
-  font-size: 24px;
+  font-size: 20px;
   scroll-behavior: smooth; 
 }
-body {
+
+.body {
+  font-family: 'Cardo', sans-serif;
   min-height: 100vh
   margin: 0;
   padding: 0;
@@ -13,27 +16,44 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
 }
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  transition: .3s;
+  color: white;
+  text-decoration: none;
+
 }
-nav {
+
+.nav-link :hover {
+  text-decoration: underline;
+  transition: 0.5s;
+  
+}
+
+.nav {
   background-color: rgb(146, 215, 146);
 }
+
 .img {
   display: inline-block;
   border-radius: 10%;
   width: 20%;
   height: 20%;
 }
+
+.section-title {
+  font-family: 'Cinzel', serif;
+}
+
