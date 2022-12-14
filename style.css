@@ -28,18 +28,22 @@ html {
   align-items: center;
   list-style: none;
 }
+
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  color: white;
   text-decoration: none;
 
 }
 
-.nav-link :hover {
+.nav-item a {
+  color: white;
+  text-decoration: none;  
+  transition: color 1s;
+}
+.nav-item a:hover {
+  color: #4d2323;
   text-decoration: underline;
-  transition: 0.5s;
-  
 }
 
 .nav {
@@ -57,3 +61,29 @@ html {
   font-family: 'Cinzel', serif;
 }
 
+.item {
+  color: black;
+  }
+
+.footer .container {
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(146, 215, 146);
+  }
+
+  .item-rs {
+    height: 43px;
+    width: 120px;
+  }
+
+  .item a {
+    color: black;
+    text-decoration: none;  
+    transition: color 1s;
+  }
+  .item a:hover {
+    color: white;
+    text-decoration: underline;
+  }
