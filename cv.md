@@ -17,10 +17,23 @@ I love an active and interesting life. Traveling is an integral part of my life.
 I have basic skills in *HTML*, *CSS* and *Git*.
 ## Code examples and experience
 ***
-I don't have sample code yet, but it will be soon.
+```
+const chai = require("chai");
+const assert = chai.assert;
+chai.config.truncateThreshold=0;
+
+describe("Tests", () => {
+  it("test", () => {
+    assert.deepEqual(uniqueInOrder('AAAABBBCCDAABBB'), ['A','B','C','D','A','B'])
+  });
+});
+```
 ## Work experience
 ***
 I have 4 years of experience in a chemical plant.
+## Education
+***
+I received a secondary special education in the specialty of a mechanical engineer, after which I received a correspondence higher education in the specialty of a mechanical engineer. Took courses in html and css on CodeBasics.
 ## English level
 ***
 А2 (according to the site test str.by).
