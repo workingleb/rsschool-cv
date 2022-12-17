@@ -31,12 +31,12 @@
   </header>
 
   <main class="main">
-    <div class="container">
-    <section class="section">
+    <div class="name">
       <h1 class="section-title">Gleb Tomchuk</h1>
       <img src="./assets/img/My-photo.jpg" alt="My photo" class="img">
-    </section>
-    <section class="section" id="contacts">
+    </div>
+    <div class="main-container">
+      <section class="section" id="contacts">
       <h2 class="section-title">Contacts</h2>
       <ul>
         <li>Location: Grodno, Belarus.</li>
@@ -61,7 +61,8 @@
       
       describe("Tests", () => {
         it("test", () => {
-          assert.deepEqual(uniqueInOrder('AAAABBBCCDAABBB'), ['A','B','C','D','A','B'])
+          assert.deepEqual(uniqueInOrder('AAAABBBCCDAABBB'), 
+          ['A','B','C','D','A','B'])
         });
       });
       </pre>
